@@ -872,7 +872,12 @@ function onPointerUp(e) {
     targetCamPos = new THREE.Vector3().addVectors(lPos, offset);
     targetCamTarget = lPos.clone();
     wishText.textContent = `"${selectedLantern.userData.wish}"`;
-    wishImage.src = selectedLantern.userData.imgUrl;
+    const imagePath = new URL(
+  selectedLantern.userData.imgUrl,
+  window.location.href
+).href;
+
+wishImage.src = imagePath;
     setTimeout(() => wishModal.classList.add("active"), 300);
   }
 }
