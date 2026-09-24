@@ -671,8 +671,8 @@ const lanterns = [];
 const interactiveObjects = [];
 
 const wishList = [
-  { text: "Đêm Trung Thu này, mình chúc cậu và gia đình quây quần bên mâm cỗ đầy đặn, cùng ngắm trăng rằm sáng tỏ, cùng nghe tiếng cười giòn tan của những người thương yêu nhất. Có nhau ở bên là món quà lớn nhất rồi.", img: "./assets/1.jpg" },
-  { text: "Mong cậu luôn giữ được trái tim trong trẻo như thuở còn rước đèn ông sao ngoài ngõ. Dù lớn lên bao nhiêu, vẫn biết vui vì những điều giản dị, vẫn biết mỉm cười khi ngẩng lên nhìn trăng.", img: "./assets/2.jpg" },
+  { text: "Đêm Trung Thu này, mình chúc cậu và gia đình quây quần bên mâm cỗ đầy đặn, cùng ngắm trăng rằm sáng tỏ, cùng nghe tiếng cười giòn tan của những người thương yêu nhất. Có nhau ở bên là món quà lớn nhất rồi.", img: "./1.jpg" },
+  { text: "Mong cậu luôn giữ được trái tim trong trẻo như thuở còn rước đèn ông sao ngoài ngõ. Dù lớn lên bao nhiêu, vẫn biết vui vì những điều giản dị, vẫn biết mỉm cười khi ngẩng lên nhìn trăng.", img: "./2.jpg" },
   { text: "Trăng rằm tròn đầy, mong mọi điều cậu ấp ủ trong lòng cũng dần được tròn đầy. Những ước mơ còn dang dở sẽ có ngày thành hiện thực, những nỗ lực thầm lặng của cậu sẽ có ngày được đền đáp xứng đáng.", img: "./assets/3.jpg" },
   { text: "Chúc cậu một mùa Trung Thu bình yên: công việc thuận lợi, tâm trí nhẹ nhàng, những lo toan tạm gác lại sau lưng. Đêm nay chỉ cần ngồi xuống, uống chén trà nóng, ăn miếng bánh dẻo và tận hưởng ánh trăng thôi nhé.", img: "./assets/1.jpg" },
   { text: "Mình mong cậu luôn khỏe mạnh, ăn ngon ngủ yên và có đủ năng lượng để theo đuổi những điều mình yêu thích. Sức khỏe là ngọn đèn lồng giữ cho mọi hành trình của cậu luôn sáng.", img: "./assets/2.jpg" },
